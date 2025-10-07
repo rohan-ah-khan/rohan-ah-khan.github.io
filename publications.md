@@ -8,7 +8,6 @@ permalink: /publications/
 
 <div class="posts">
   <div class="post">
-    <h1 class="post-title">Publications</h1>
     <p>Below is a selection of research publications and scholarly works.</p>
     <hr>
 

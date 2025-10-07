@@ -8,7 +8,6 @@ permalink: /publications/
 
 <div class="posts">
   <div class="post">
-    <h1 class="post-title">Publications</h1>
 
     {% assign pubs = site.posts | where_exp: 'p', 'p.categories contains "publication"' | sort: 'date' | reverse %}
     <ul class="pub-list">

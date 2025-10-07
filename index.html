@@ -1,37 +1,9 @@
 ---
 layout: default
-title: Home
+title: About
+permalink: /
 ---
 
-<div class="posts">
-  {% for post in paginator.posts %}
-  <div class="post">
-    <h1 class="post-title">
-      <a href="{{ post.url }}">
-        {{ post.title }}
-      </a>
-    </h1>
+Hi, I’m Rohan — a genomics researcher and bioinformatician. I build workflows for sequencing data, analyze variants, and write about the practical side of computational biology.
 
-    <span class="post-date">{{ post.date | date_to_string }}</span>
-
-    {{ post.content }}
-  </div>
-  {% endfor %}
-</div>
-
-<div class="pagination">
-  {% if paginator.next_page %}
-    <a class="pagination-item older" href="{{ site.baseurl }}page{{paginator.next_page}}">Older</a>
-  {% else %}
-    <span class="pagination-item older">Older</span>
-  {% endif %}
-  {% if paginator.previous_page %}
-    {% if paginator.page == 2 %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}">Newer</a>
-    {% else %}
-      <a class="pagination-item newer" href="{{ site.baseurl }}page{{paginator.previous_page}}">Newer</a>
-    {% endif %}
-  {% else %}
-    <span class="pagination-item newer">Newer</span>
-  {% endif %}
-</div>
+(This is your landing page. We’ll wire up Publications and Code next.)

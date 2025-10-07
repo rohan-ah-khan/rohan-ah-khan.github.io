@@ -1,32 +1,26 @@
-# --- Build settings (GitHub Pages compatible) ---
 markdown: kramdown
 highlighter: rouge
 
-# Permalinks
 permalink: pretty
 
 # Site info
 title: Rohan Khan
 tagline: "Bioinformatics & Genomics"
-description: "Notes, projects, and writing."
-url: "https://rohan-ah-khan.github.io"  # your GitHub Pages root
-baseurl: ""                              # MUST be empty for user/organization sites
+description: "Bioinformatician | Computational Biologist | Genomics Scientist | MHSc Medical Genomics"
+url: "https://rohan-ah-khan.github.io"  
+baseurl: ""                              
 
 author:
   name: "Rohan Khan"
   url: "https://rohan-ah-khan.github.io"
 
-# Pagination (optional; Hyde supports it)
 paginate: 5
 paginate_path: "/page:num"
 
-# Plugins allowed on GitHub Pages
 plugins:
   - jekyll-paginate
 
-# Custom vars (Hyde uses this)
 version: "2.1.0"
 
-# GitHub repo link (optional)
 github:
   repo: "https://github.com/rohan-ah-khan/rohan-ah-khan.github.io"

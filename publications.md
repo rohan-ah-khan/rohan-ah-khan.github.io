@@ -1,40 +1,40 @@
 ---
 layout: default
-title: Publications
-permalink: /publications/
+title: About
+permalink: /
 ---
 
 <div class="posts">
   <div class="post">
-    <h1 class="post-title">Publications</h1>
+    <h1 class="post-title">About</h1>
 
-    <p>Below is a selection of research publications and scholarly works.</p>
-    <hr>
+    <div class="about-wrap">
+      <img class="about-photo" src="{{ '/public/img/rohan.png' | relative_url }}" alt="Rohan Khan headshot">
 
-    <ul class="pub-list">
-      <li>
-        <strong>Predicting hydrocarbon presence in marine cold seep sediments using machine learning models trained with benthic bacterial 16S rRNA taxonomy</strong><br>
-        <em>Marine Science Journal</em>, 2024.<br>
-        <small>Developed ML models integrating 16S rRNA profiles and geochemical metadata to predict hydrocarbon seepage across marine sediments.</small>
-      </li>
-      <li>
-        <strong>Identification of genetic subtypes in follicular lymphoma</strong><br>
-        <em>Blood Cancer Journal</em>, 2024.<br>
-        <small>Performed molecular clustering analysis of FL samples integrating methylation, transcriptomic, and mutational data to define novel subtypes.</small>
-      </li>
-      <li>
-        <strong>Integration of gene mutations in risk prognostication for follicular lymphoma</strong><br>
-        <em>Lancet Oncology</em>, 2015.<br>
-        <small>Evaluated the prognostic value of seven key gene mutations (m7-FLIPI) in first-line immunochemotherapy-treated FL patients.</small>
-      </li>
-    </ul>
+      {% capture about_md %}
+**Core Skills:**  
+Bioinformatics · Medical Genomics · Cancer Genomics · Whole-Genome Sequencing (WGS) · Targeted NGS · Variant Calling (SNVs, CNVs, SVs) · Mutational Profiling & Burden · Copy Number & Ploidy Analysis · RNA-seq · Machine Learning · Statistical Genetics · R (tidyverse, phyloseq, ggplot) · Python · Perl · Git · High-Performance Computing (SLURM/Linux) · HMM-based Annotation
+      {% endcapture %}
+      {{ about_md | markdownify }}
+    </div>
   </div>
 </div>
 
 <style>
-.pub-list { list-style: none; padding-left: 0; margin-top: 1.5rem; }
-.pub-list li { margin-bottom: 1.5rem; line-height: 1.6; }
-.pub-list strong { font-size: 1.05rem; }
-.pub-list em { color: #666; }
-.pub-list small { display: block; color: #555; }
+
+.about-wrap {
+  position: relative;
+}
+.about-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 9999px; 
+  float: right;
+  margin: 0 0 1rem 1.25rem; 
+  border: 3px solid rgba(0,0,0,0.06);
+}
+@media (max-width: 640px) {
+  .about-photo { float: none; display: block; margin: 0 auto 1rem auto; }
+}
 </style>

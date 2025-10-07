@@ -8,29 +8,26 @@ permalink: /publications/
 
 <div class="posts">
   <div class="post">
-    <p>Below is a selection of research publications and scholarly works.</p>
-    <hr>
+    <h1 class="post-title">Publications</h1>
 
+    {% assign pubs = site.posts | where_exp: 'p', 'p.categories contains "publication"' | sort: 'date' | reverse %}
     <ul class="pub-list">
-      {% assign pubs = site.posts | where_exp: 'p', 'p.categories contains "publication"' %}
       {% for post in pubs %}
-        <li>
-          <strong><a href="{{ post.url | relative_url }}">{{ post.title }}</a></strong><br>
-          {% if post.venue or post.year %}
-            <em>{{ post.venue }}</em>{% if post.venue and post.year %}, {% endif %}{{ post.year }}.<br>
-          {% endif %}
-          {% if post.authors %}
-            <small>{{ post.authors }}</small><br>
-          {% endif %}
-          {% if post.summary %}
-            <small>{{ post.summary }}</small><br>
-          {% endif %}
-          {% if post.links %}
-            <small>
-              {% if post.links.pdf %}<a href="{{ post.links.pdf }}">PDF</a>{% endif %}
-              {% if post.links.doi %}{% if post.links.pdf %} · {% endif %}<a href="{{ post.links.doi }}">DOI</a>{% endif %}
-            </small>
-          {% endif %}
+        <li class="pub-item">
+          <h2 class="pub-title">
+            {% if post.external_url %}
+              <a href="{{ post.external_url }}" target="_blank" rel="noopener">{{ post.title }}</a>
+            {% else %}
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            {% endif %}
+          </h2>
+          <p class="pub-meta">
+            {{ post.date | date: "%B %Y" }}
+            {% if post.journal %} — <em>{{ post.journal }}</em>{% endif %}
+          </p>
+          <p class="pub-summary">
+            {{ post.excerpt | strip_html | truncate: 220 }}
+          </p>
         </li>
       {% endfor %}
     </ul>
@@ -39,8 +36,9 @@ permalink: /publications/
 
 <style>
 .pub-list { list-style: none; padding-left: 0; margin-top: 1.5rem; }
-.pub-list li { margin-bottom: 1.5rem; line-height: 1.6; }
-.pub-list strong { font-size: 1.05rem; }
-.pub-list em { color: #666; }
-.pub-list small { color: #555; display: block; }
+.pub-item { margin-bottom: 2rem; }
+.pub-title { font-size: 1.1rem; margin-bottom: 0.2rem; }
+.pub-title a { text-decoration: none; }
+.pub-meta { color: #666; font-size: 0.9rem; margin-bottom: 0.5rem; }
+.pub-summary { color: #444; line-height: 1.5; }
 </style>

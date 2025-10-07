@@ -8,6 +8,8 @@ permalink: /publications/
 
 <div class="posts">
   <div class="post">
+    <p>Below is a selection of research publications and scholarly work I have contributed to recently.</p>
+    <hr>
 
     {% assign pubs = site.posts | where_exp: 'p', 'p.categories contains "publication"' | sort: 'date' | reverse %}
     <ul class="pub-list">

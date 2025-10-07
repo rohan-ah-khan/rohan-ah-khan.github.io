@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: page
 title: Publications
 nav: true
 nav_order: 2

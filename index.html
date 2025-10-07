@@ -4,6 +4,45 @@ title: About
 permalink: /
 ---
 
-Hi, I’m Rohan — a genomics researcher and bioinformatician. I build workflows for sequencing data, analyze variants, and write about the practical side of computational biology.
+<div class="posts">
+  <div class="post">
+    <h1 class="post-title">About</h1>
 
-(This is your landing page. We’ll wire up Publications and Code next.)
+    <div class="about-wrap">
+      <img class="about-photo" src="{{ '/public/img/rohan.jpg' | relative_url }}" alt="Rohan Khan headshot">
+
+      {% capture about_md %}
+I am a bioinformatics and medical genomics researcher with experience spanning whole-genome sequencing and microbiome datasets. My work combines computational pipelines, statistical genomics, and machine learning to analyze complex biological data and uncover clinically and biologically relevant insights.
+
+At the Princess Margaret Cancer Centre, I focus on cancer genomics by analyzing targeted sequencing data from patient cohorts to characterize mutational profiles, subclonal architecture, mutation burden, copy number alterations, and ploidy. I developed and optimized multi-caller consensus pipelines covering alignment, quality control, variant calling, and structural variant detection on HPC systems (SLURM/Linux), with scripting in Perl and Python to streamline workflow automation.
+
+Previously at the University of Calgary, I developed machine learning models in R to integrate 16S rRNA sequencing data with ecological metadata, achieving predictive accuracy across global validation sites. My research also involved statistical analyses (NMDS, regression modeling) to connect microbial community structure with environmental features, and HMM-based functional annotation to identify pathways in metagenome datasets.
+
+Through my MHSc in Medical Genomics (University of Toronto), I have expanded my expertise in RNA-seq analysis, CNV/SV detection, variant interpretation (ACMG/ClinGen), and precision medicine applications, applying computational methods such as regression modeling, PCA, and pathway analysis.
+
+**Core Skills:**  
+Bioinformatics · Medical Genomics · Cancer Genomics · Whole-Genome Sequencing (WGS) · Targeted NGS · Variant Calling (SNVs, CNVs, SVs) · Mutational Profiling & Burden · Copy Number & Ploidy Analysis · RNA-seq · Machine Learning · Statistical Genetics · R (tidyverse, phyloseq, ggplot) · Python · Perl · Git · High-Performance Computing (SLURM/Linux) · HMM-based Annotation
+      {% endcapture %}
+      {{ about_md | markdownify }}
+    </div>
+  </div>
+</div>
+
+<style>
+/* simple, theme-friendly tweaks for the about page */
+.about-wrap {
+  position: relative;
+}
+.about-photo {
+  width: 160px;
+  height: 160px;
+  object-fit: cover;
+  border-radius: 9999px; /* circle */
+  float: right;
+  margin: 0 0 1rem 1.25rem; /* space from text */
+  border: 3px solid rgba(0,0,0,0.06);
+}
+@media (max-width: 640px) {
+  .about-photo { float: none; display: block; margin: 0 auto 1rem auto; }
+}
+</style>

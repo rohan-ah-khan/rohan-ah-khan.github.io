@@ -8,7 +8,6 @@ permalink: /experience/
 
 <div class="posts">
   <div class="post">
-    <h1 class="post-title">Experience</h1>
 
     <h2>Education</h2>
     <ul class="exp-list">

@@ -1,7 +1,8 @@
 <div class="sidebar">
   <div class="container sidebar-sticky">
     <div class="sidebar-about">
-      <img src="{{ '/public/img/rohan.png' | relative_url }}" alt="Rohan Khan" class="sidebar-photo">
+      <!-- Profile image -->
+      <img src="{{ '/public/images/rohan.png' | relative_url }}" alt="Rohan Khan" class="sidebar-photo">
 
       <h1>
         <a href="{{ '/' | relative_url }}">
@@ -12,6 +13,7 @@
     </div>
 
     <nav class="sidebar-nav">
+      <!-- Home/About -->
       <a class="sidebar-nav-item{% if page.url == '/' %} active{% endif %}" href="{{ '/' | relative_url }}">About</a>
 
       {% assign pages_list = site.pages %}
@@ -20,6 +22,10 @@
           <a class="sidebar-nav-item{% if page.url == node.url %} active{% endif %}" href="{{ node.url | relative_url }}">{{ node.title }}</a>
         {% endif %}
       {% endfor %}
+
+      <a class="sidebar-nav-item" href="https://www.linkedin.com/in/rohan-khan/" target="_blank" rel="noopener">
+        LinkedIn ↗
+      </a>
     </nav>
 
     <p>&copy; {{ site.time | date: '%Y' }}. All rights reserved.</p>

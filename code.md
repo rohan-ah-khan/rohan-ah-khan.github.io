@@ -32,8 +32,8 @@ nav_order: 3
       </li>
 
       <li>
-        <strong><a href="https://github.com/rohan-ah-khan/RNAseq-Snakemake-Pipeline" target="_blank" rel="noopener">RNAseq-Snakemake-Pipeline</a></strong><br>
-        Built a reproducible RNA-seq analysis pipeline using Snakemake with HISAT2, HTSeq, and edgeR to identify drug responses in muscle cell lines.
+        <strong><a href="https://github.com/rohan-ah-khan/RNAseq-Pipeline" target="_blank" rel="noopener">RNAseq-Pipeline</a></strong><br>
+        Built a reproducible RNA-seq analysis pipeline with HISAT2, HTSeq, and edgeR to identify drug responses in muscle cell lines. Repo has demo example with publically avaiable Yeast data.
       </li>
 
       <li>

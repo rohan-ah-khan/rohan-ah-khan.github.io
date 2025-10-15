@@ -35,11 +35,6 @@ nav_order: 3
         <strong><a href="https://github.com/rohan-ah-khan/RNAseq-Pipeline" target="_blank" rel="noopener">RNAseq-Pipeline</a></strong><br>
         Built a reproducible RNA-seq analysis pipeline with HISAT2, HTSeq, and edgeR to identify drug responses in muscle cell lines. Repo has demo example with publically avaiable Yeast data.
       </li>
-
-      <li>
-        <strong><a href="https://github.com/rohan-ah-khan/Docker-Pipeline-Demo" target="_blank" rel="noopener">Docker-Pipeline-Demo</a></strong><br>
-        Minimal Docker prototype used to test and containerize bioinformatics workflows before deployment in large-scale HPC environments.
-      </li>
     </ul>
   </div>
 </div>

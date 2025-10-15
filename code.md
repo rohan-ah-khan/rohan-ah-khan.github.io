@@ -28,7 +28,7 @@ nav_order: 3
 
       <li>
         <strong><a href="https://github.com/rohan-ah-khan/Synthetic-Promoter-Prediction" target="_blank" rel="noopener">Synthetic-Promoter-Prediction</a></strong><br>
-        TensorFlow-based deep learning model for predicting promoter strength from synthetic DNA sequences, integrating CNN layers with sequence embedding features.
+        TensorFlow and Keras based model for predicting promoters (e.g., TATA box) from synthetic DNA sequences.
       </li>
 
       <li>

@@ -24,12 +24,22 @@ permalink: /experience/
     <h2>Professional Experience</h2>
     <ul class="exp-list">
       <li>
-        <strong>Research Assistant</strong> — Kridel Lab, Princess Margaret Cancer Centre · Toronto, ON<br>
-        <em>May 2025 – Present</em>
+        <strong>Bioinformatics Intern</strong> — Centre for Computational Medicine, SickKids · Toronto, ON<br>
+        <em>Jan 2026 – Present</em>
         <ul>
           <li>Analyzed <strong>1000+ targeted NGS samples</strong> from follicular lymphoma patients to identify subclonal variants and assess copy number changes.</li>
           <li>Adapted and optimized a Perl-based variant analysis pipeline (alignment, QC, multi-caller integration; 15+ tools).</li>
           <li>Built visual summaries and trend analyses of recurrent drivers using R (ggplot2, tidyverse) and Python (pandas, matplotlib).</li>
+        </ul>
+      </li>
+
+      <li>
+        <strong>Research Assistant</strong> — Kridel Lab, Princess Margaret Cancer Centre · Toronto, ON<br>
+        <em>May 2025 – Jan 2026</em>
+        <ul>
+          <li>Supported rare disease and translational genomics projects within a hospital bioinformatics core facility, developing and maintaining scalable HPC-based genomics workflows.</li>
+          <li>Developed a Python-based execution interface enabling programmatic container (Docker, Singularity) and SLURM interaction for reproducible workflow execution.</li>
+          <li>Extended a long-read annotation pipeline by implementing a QC reporting module in Snakemake, integrating alignment- and variant-level metrics into consolidated MultiQC reports.</li>
         </ul>
       </li>
 

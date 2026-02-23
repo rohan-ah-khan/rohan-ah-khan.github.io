@@ -12,16 +12,15 @@ permalink: /
       <img class="about-photo" src="{{ '/public/img/rohan.png' | relative_url }}" alt="Rohan Khan headshot">
 
       {% capture about_md %}
-I am a bioinformatics and medical genomics researcher with experience spanning whole-genome sequencing and microbiome datasets. My work combines computational pipelines, statistical genomics, and machine learning to analyze complex biological data and uncover clinically and biologically relevant insights.
+I’m a bioinformatics researcher interested in translating complex genomic data into systems that are usable, scalable, and impactful. My work sits at the intersection of genomics, computation, and infrastructure, building tools and pipelines that turn raw sequencing data into interpretable insights for exploratory research. 
 
-At the Princess Margaret Cancer Centre, I focus on cancer genomics by analyzing targeted sequencing data from patient cohorts to characterize mutational profiles, subclonal architecture, mutation burden, copy number alterations, and ploidy. I developed and optimized multi-caller consensus pipelines covering alignment, quality control, variant calling, and structural variant detection on HPC systems (SLURM/Linux), with scripting in Perl and Python to streamline workflow automation.
+Currently, I’m an intern at SickKids’ Centre for Computational Medicine, a core bioinformatics facility within the hospital. There, I help develop and maintain genome analysis pipelines used in clinical research workflows. My work includes long-read structural variant calling and benchmarking, VCF annotation and harmonization, and building reproducible Snakemake pipelines designed for HPC environments.
 
-Previously at the University of Calgary, I developed machine learning models in R to integrate 16S rRNA sequencing data with ecological metadata, achieving predictive accuracy across global validation sites. My research also involved statistical analyses (NMDS, regression modeling) to connect microbial community structure with environmental features, and HMM-based functional annotation to identify pathways in metagenome datasets.
+Previously, at Princess Margaret Cancer Centre, I worked on follicular lymphoma research, developing an end-to-end tumor-only sequencing pipeline integrating multi-caller SNV consensus strategies and CNV detection. The pipeline supported downstream survival and treatment response analyses across international cohorts.
 
-Through my MHSc in Medical Genomics (University of Toronto), I have expanded my expertise in RNA-seq analysis, CNV/SV detection, variant interpretation (ACMG/ClinGen), and precision medicine applications, applying computational methods such as regression modeling, PCA, and pathway analysis.
-
-**Core Skills:**  
-Bioinformatics · Medical Genomics · Cancer Genomics · Whole-Genome Sequencing (WGS) · Targeted NGS · Variant Calling (SNVs, CNVs, SVs) · Mutational Profiling & Burden · Copy Number & Ploidy Analysis · RNA-seq · Machine Learning · Statistical Genetics · R (tidyverse, phyloseq, ggplot) · Python · Perl · Git · High-Performance Computing (SLURM/Linux) · HMM-based Annotation
+I began my research career at the University of Calgary in microbial genomics, where I combined 16S rRNA sequencing and machine learning to predict hydrocarbon presence in marine and industrial systems. That experience motivated me to build robust computational systems that make complex genomic data more interpretable and more actionable.
+      **Core Skills:**  
+Bioinformatics · Medical Genomics · Cancer Genomics · Whole-Genome Sequencing (WGS) · Targeted NGS · Variant Calling (SNVs, CNVs, SVs) · Mutational Profiling & Burden · Copy Number & Ploidy Analysis · RNA-seq · Machine Learning · Statistical Genetics · R (tidyverse, phyloseq, ggplot) · Python · Perl · Git · High-Performance Computing (SLURM/Linux) · HMM-based Annotation · Variant Annotation · Containerization (Docker, Singularity)
       {% endcapture %}
       {{ about_md | markdownify }}
     </div>

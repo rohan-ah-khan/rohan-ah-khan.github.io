@@ -12,6 +12,21 @@ nav_order: 3
 
     <ul class="repo-list">
       <li>
+        <strong><a href="https://github.com/ccmbioinfo/ccm_benchmate" target="_blank" rel="noopener">CCM-Benchmate</a></strong><br>
+        Worked on creating a Container Runner module for CCM Benchmate to execute Docker/Singularity commands without CLI. Benchmate is a modular Python toolkit that integrates biological data from APIs, literature, sequences, structures, variants, genomes, and containerized pipelines into a unified, queryable knowledge base for computational biology.
+      </li>
+
+      <li>
+        <strong><a href="https://github.com/ccmbioinfo/crg2-pacbio" target="_blank" rel="noopener">crg2-pacbio</a></strong><br>
+        Worked on creating a QC module for crg2-pacbio to collect and consolidate various allignment and variant quality control metrics into a single report. crg2-pacbio is a long-read variant annotation pipeline.
+      </li>
+
+      <li>
+        <strong><a href="https://github.com/rohan-uhn/pipeline-suite" target="_blank" rel="noopener">Targeted-Seq-Pipeline</a></strong><br>
+        Developed an end-to-end targeted-seq pipeline for translational research in follicular lymphoma. The pipeline processes raw reads, and uses consensus SNV and CNV caliing to generate variant calls for targeted-seq data.
+      </li>
+      
+      <li>
         <strong><a href="https://github.com/rohan-ah-khan/16S-Taxonomy-Assignment" target="_blank" rel="noopener">16S-Taxonomy-Assignment</a></strong><br>
         Workflow for processing and taxonomically assigning 16S rRNA gene sequences using Dada2 and SILVA databases.
       </li>

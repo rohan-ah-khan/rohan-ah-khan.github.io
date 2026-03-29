@@ -13,7 +13,12 @@ nav_order: 3
     <ul class="repo-list">
       <li>
         <strong><a href="https://github.com/ccmbioinfo/ccm_benchmate" target="_blank" rel="noopener">CCM-Benchmate</a></strong><br>
-        Developed a Container Runner module for CCM Benchmate to execute Docker and Singularity workflows without direct CLI interaction. Also contributed to building a containerized deployment (<a href="https://hub.docker.com/r/rohanahkhan/ccm-benchmate" target="_blank" rel="noopener">Docker Hub</a>) integrating Benchmate with PostgreSQL, enabling use in HPC environments. Currently working on database-backed systems for storing and querying biological data, including natural language–based retrieval.
+        Developed a Container Runner module for CCM Benchmate to execute Docker and Singularity workflows without direct CLI interaction. Independently built and deployed a containerized version (<a href="https://hub.docker.com/r/rohanahkhan/ccm-benchmate" target="_blank" rel="noopener">Docker Hub</a>) integrating Benchmate with PostgreSQL, enabling use in HPC environments. Also working on database-backed systems for storing and querying genomic and literature data, including natural language–based retrieval.
+      </li>
+
+      <li>
+        <strong><a href="https://github.com/rohan-ah-khan/SV_Benchmarking" target="_blank" rel="noopener">SV-Benchmarking</a></strong><br>
+        Evaluated ensemble strategies for long-read structural variant calling using PacBio HiFi data, comparing multiple callers across variant types and size ranges against benchmark truth sets. Work includes exploratory analysis and visualization in a reproducible Jupyter notebook.
       </li>
 
       <li>
@@ -24,6 +29,11 @@ nav_order: 3
       <li>
         <strong><a href="https://github.com/ccmbioinfo/crg2/tree/malkin/GRCm38" target="_blank" rel="noopener">Mouse-WES-Pipeline</a></strong><br>
         Contributed to a mouse whole-exome sequencing pipeline, processing data from raw reads through alignment, variant calling, and filtering to generate high-confidence germline and somatic VCFs.
+      </li>
+
+      <li>
+        <strong><a href="https://github.com/ccmbioinfo/crg2-pacbio" target="_blank" rel="noopener">crg2-pacbio</a></strong><br>
+        Developed a QC module to aggregate alignment- and variant-level metrics into a unified report for long-read WGS data. The pipeline performs comprehensive variant annotation across multiple variant types.
       </li>
       
       <li>

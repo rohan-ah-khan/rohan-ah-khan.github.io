@@ -27,9 +27,10 @@ permalink: /experience/
         <strong>Bioinformatics Intern</strong> — Centre for Computational Medicine, SickKids · Toronto, ON<br>
         <em>Jan 2026 – Present</em>
         <ul>
-          <li>Analyzed <strong>1000+ targeted NGS samples</strong> from follicular lymphoma patients to identify subclonal variants and assess copy number changes.</li>
-          <li>Adapted and optimized a Perl-based variant analysis pipeline (alignment, QC, multi-caller integration; 15+ tools).</li>
-          <li>Built visual summaries and trend analyses of recurrent drivers using R (ggplot2, tidyverse) and Python (pandas, matplotlib).</li>
+          <li>Work within a hospital bioinformatics core supporting diverse clinical genomics projects through development of scalable analysis workflows.</li>
+          <li>Evaluate ensemble strategies for long-read structural variant calling using PacBio HiFi data, comparing performance across variant types and benchmark datasets.</li>
+          <li>Develop and maintain reproducible Snakemake pipelines for variant annotation across long- and short-read WGS, including integrated QC reporting.</li>
+          <li>Build containerized tools and database-backed systems for genomic and literature data, including PostgreSQL-based storage and natural language querying.</li>
         </ul>
       </li>
 
@@ -37,9 +38,10 @@ permalink: /experience/
         <strong>Research Assistant</strong> — Kridel Lab, Princess Margaret Cancer Centre · Toronto, ON<br>
         <em>May 2025 – Jan 2026</em>
         <ul>
-          <li>Supported rare disease and translational genomics projects within a hospital bioinformatics core facility, developing and maintaining scalable HPC-based genomics workflows.</li>
-          <li>Developed a Python-based execution interface enabling programmatic container (Docker, Singularity) and SLURM interaction for reproducible workflow execution.</li>
-          <li>Extended a long-read annotation pipeline by implementing a QC reporting module in Snakemake, integrating alignment- and variant-level metrics into consolidated MultiQC reports.</li>
+          <li>Developed an end-to-end tumor-only sequencing pipeline for follicular lymphoma, applied across 1,000+ samples from multiple international cohorts.</li>
+          <li>Designed consensus variant calling strategies for SNVs and copy number alterations, addressing challenges of tumor-only data.</li>
+          <li>Performed cohort-scale analyses linking genomic alterations to treatment response and survival outcomes.</li>
+          <li>Built and maintained HPC-based workflows integrating multiple variant callers and downstream annotation pipelines.</li>
         </ul>
       </li>
 
@@ -47,10 +49,10 @@ permalink: /experience/
         <strong>Microbiome Machine Learning Research Assistant</strong> — Microbial Markets & Geomicrobiology Group, University of Calgary · Calgary, AB<br>
         <em>Sept 2022 – Sept 2024</em>
         <ul>
-          <li>Built an R pipeline to predict geochemical features from <strong>16S rRNA</strong> data; achieved up to <strong>0.8 AUC</strong> across global validation sites.</li>
-          <li>Standardized the 16S workflow (raw reads → ASVs) with feature selection to improve cross-site generalization.</li>
-          <li>Presented models at ISMOS; led workshops/demos and supported broader adoption in academic/industrial groups.</li>
-          <li>Secured <strong>Mitacs funding</strong>; led reporting; published as <strong>first author</strong> in <em>Microbiology Spectrum</em> (2025).</li>
+          <li>Developed machine learning models integrating 16S rRNA sequencing data with ecological metadata to predict hydrocarbon presence across diverse environments.</li>
+          <li>Performed feature engineering and selection on high-dimensional microbial datasets, improving model performance and interpretability.</li>
+          <li>Evaluated model generalizability across independent datasets and identified key microbial indicators.</li>
+          <li>Led project coordination and contributed to a first-author publication in <em>Microbiology Spectrum</em> (2025).</li>
         </ul>
       </li>
 
@@ -58,10 +60,10 @@ permalink: /experience/
         <strong>Undergraduate Research Assistant</strong> — Energy, Bioengineering & Geomicrobiology Group, University of Calgary · Calgary, AB<br>
         <em>May 2019 – Apr 2022</em>
         <ul>
-          <li>Integrated environmental chemistry with <strong>metagenomic</strong> data to track corrosive bacteria and pipeline risk.</li>
-          <li>Used <strong>NMDS</strong> and regression to relate bacterial activity to ion levels and corrosion severity.</li>
-          <li>Annotated MAGs using <strong>HMM-based</strong> methods to identify hydrocarbon degradation pathways.</li>
-          <li>Collaborated across projects; supported scripting and workflow troubleshooting.</li>
+          <li>Conducted amplicon and metagenomic sequencing analyses, integrating microbial community data with geochemical measurements.</li>
+          <li>Built reproducible workflows for sequence processing, assembly, binning, and functional annotation.</li>
+          <li>Applied HMM-based methods to identify genes involved in hydrocarbon degradation pathways.</li>
+          <li>Performed full wet lab workflows including DNA extraction, library preparation, and sequencing.</li>
         </ul>
       </li>
     </ul>
@@ -69,16 +71,16 @@ permalink: /experience/
     <h2>Genomics Projects</h2>
     <ul class="exp-list">
       <li>
-        <strong>Biostatistics & RNA-seq</strong><br>
-        Analyzed bulk RNA-seq from muscle cell lines to assess drug response using <strong>HISAT2</strong>, <strong>HTSeq</strong>, and <strong>edgeR</strong>; applied ANOVA and FDR correction.
+        <strong>RNA-seq Analysis</strong><br>
+        Developed a reproducible RNA-seq workflow using <strong>HISAT2</strong>, <strong>HTSeq</strong>, and <strong>edgeR</strong> to analyze transcriptional responses in model systems.
       </li>
       <li>
-        <strong>Variant Analysis</strong><br>
-        Interpreted variants with <strong>Ensembl VEP</strong>, <strong>NCBI</strong>, and in silico tools (<strong>SIFT</strong>, <strong>PolyPhen</strong>) using <strong>ACMG</strong> guidelines.
+        <strong>Variant Interpretation</strong><br>
+        Applied <strong>ACMG</strong> guidelines and tools such as <strong>Ensembl VEP</strong> and <strong>gnomAD</strong> for clinical variant interpretation.
       </li>
       <li>
         <strong>Science Communication</strong><br>
-        Wrote plain-language explainers on retrotransposon epigenetics and interchromosomal interactions.
+        Produced accessible explanations of complex genomics concepts, including retrotransposon regulation and chromosomal interactions.
       </li>
     </ul>
   </div>

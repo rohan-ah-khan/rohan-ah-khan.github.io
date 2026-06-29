@@ -8,57 +8,55 @@ nav_order: 3
 <div class="posts">
   <div class="post">
 
-    <p>Here are some of the repositories and projects I have worked on, spanning genomics pipelines, machine learning, and toolkit development.</p>
-
     <ul class="repo-list">
       <li>
         <strong><a href="https://github.com/ccmbioinfo/ccm_benchmate" target="_blank" rel="noopener">CCM-Benchmate</a></strong><br>
-        Developed a Container Runner module for CCM Benchmate to execute Docker and Singularity workflows without direct CLI interaction. Independently built and deployed a containerized version (<a href="https://hub.docker.com/r/rohanahkhan/ccm-benchmate" target="_blank" rel="noopener">Docker Hub</a>) integrating Benchmate with PostgreSQL, enabling use in HPC environments. Also working on database-backed systems for storing and querying genomic and literature data, including natural language–based retrieval.
+        Bioinformatics toolkit for running and managing containerized workflows, with PostgreSQL-backed storage and natural language querying of genomic and literature data. Also available on <a href="https://hub.docker.com/r/rohanahkhan/ccm-benchmate" target="_blank" rel="noopener">Docker Hub</a>.
       </li>
 
       <li>
         <strong><a href="https://github.com/rohan-ah-khan/SV_Benchmarking" target="_blank" rel="noopener">SV-Benchmarking</a></strong><br>
-        Evaluated ensemble strategies for long-read structural variant calling using PacBio HiFi data, comparing multiple callers across variant types and size ranges against benchmark truth sets. Work includes exploratory analysis and visualization in a reproducible Jupyter notebook.
+        Benchmarking of structural variant callers on long-read PacBio HiFi data.
       </li>
 
       <li>
         <strong><a href="https://github.com/ccmbioinfo/CPHI-DRAGEN-anno" target="_blank" rel="noopener">CPHI-DRAGEN-anno</a></strong><br>
-        Contributed to development of a Snakemake-based annotation pipeline for DRAGEN VCFs, supporting standardized and reproducible variant annotation workflows for large-scale genomics projects.
+        Snakemake pipeline that takes DRAGEN VCFs, annotates variants through joins with genomic databases, and produces reports for variant analysis in support of rare disease research.
       </li>
 
       <li>
         <strong><a href="https://github.com/ccmbioinfo/crg2/tree/malkin/GRCm38" target="_blank" rel="noopener">Mouse-WES-Pipeline</a></strong><br>
-        Contributed to a mouse whole-exome sequencing pipeline, processing data from raw reads through alignment, variant calling, and filtering to generate high-confidence germline and somatic VCFs.
+        Whole-exome sequencing pipeline for mouse data, from raw reads through variant calling.
       </li>
 
       <li>
         <strong><a href="https://github.com/ccmbioinfo/crg2-pacbio" target="_blank" rel="noopener">crg2-pacbio</a></strong><br>
-        Developed a QC module to aggregate alignment- and variant-level metrics into a unified report for long-read WGS data. The pipeline performs comprehensive variant annotation across multiple variant types.
+        Long-read WGS pipeline that processes VCFs, annotates variants through database joins, and generates reports for variant analysis in rare disease research.
       </li>
-      
+
       <li>
         <strong><a href="https://github.com/rohan-uhn/pipeline-suite" target="_blank" rel="noopener">Targeted-Seq-Pipeline</a></strong><br>
-        Developed an end-to-end targeted sequencing pipeline for translational cancer genomics, integrating consensus SNV and CNV calling for tumor-only data.
+        End-to-end targeted sequencing pipeline for tumor-only cancer genomics, with consensus SNV and CNV calling.
       </li>
-      
+
       <li>
         <strong><a href="https://github.com/rohan-ah-khan/16S-Taxonomy-Assignment" target="_blank" rel="noopener">16S-Taxonomy-Assignment</a></strong><br>
-        Workflow for processing and taxonomically assigning 16S rRNA gene sequences using DADA2 and SILVA databases.
+        16S rRNA sequence processing and taxonomy assignment using DADA2 and SILVA.
       </li>
 
       <li>
         <strong><a href="https://github.com/rohan-ah-khan/16s-ASV-Metadata-ML-Prediction" target="_blank" rel="noopener">16s-ASV-Metadata-ML-Prediction</a></strong><br>
-        Machine learning models built in R (H2O AutoML, GBM) to predict environmental metadata associated with 16S ASV abundance data.
+        ML models to predict environmental metadata from 16S ASV abundance data.
       </li>
 
       <li>
         <strong><a href="https://github.com/rohan-ah-khan/Synthetic-Promoter-Prediction" target="_blank" rel="noopener">Synthetic-Promoter-Prediction</a></strong><br>
-        TensorFlow and Keras-based model for predicting promoter regions (e.g., TATA box) from synthetic DNA sequences.
+        Neural network model for predicting promoter regions from synthetic DNA sequences.
       </li>
 
       <li>
         <strong><a href="https://github.com/rohan-ah-khan/RNAseq-Pipeline" target="_blank" rel="noopener">RNAseq-Pipeline</a></strong><br>
-        Built a reproducible RNA-seq analysis pipeline using HISAT2, HTSeq, and edgeR to identify transcriptional responses. Includes a demo with publicly available yeast data.
+        RNA-seq pipeline using HISAT2, HTSeq, and edgeR, with a demo on public yeast data.
       </li>
     </ul>
   </div>

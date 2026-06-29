@@ -21,68 +21,33 @@ permalink: /experience/
       </li>
     </ul>
 
-    <h2>Professional Experience</h2>
+    <h2>Work</h2>
     <ul class="exp-list">
       <li>
-        <strong>Bioinformatics Intern</strong> — Centre for Computational Medicine, SickKids · Toronto, ON<br>
-        <em>Jan 2026 – Present</em>
-        <ul>
-          <li>Work within a hospital bioinformatics core supporting diverse clinical genomics projects through development of scalable analysis workflows.</li>
-          <li>Evaluate ensemble strategies for long-read structural variant calling using PacBio HiFi data, comparing performance across variant types and benchmark datasets.</li>
-          <li>Develop and maintain reproducible Snakemake pipelines for variant annotation across long- and short-read WGS, including integrated QC reporting.</li>
-          <li>Build containerized tools and database-backed systems for genomic and literature data, including PostgreSQL-based storage and natural language querying.</li>
-        </ul>
+        <strong>Bioinformatician</strong> · Centre for Computational Medicine, SickKids · Toronto, ON<br>
+        <em>Jan 2026 – Present</em><br>
+        Working across a range of projects at a hospital bioinformatics core — genomic pipeline development, tool benchmarking and development, variant annotation, imaging and ML applications, and bioinformatics consulting for research teams.
       </li>
 
       <li>
-        <strong>Research Assistant</strong> — Kridel Lab, Princess Margaret Cancer Centre · Toronto, ON<br>
-        <em>May 2025 – Jan 2026</em>
-        <ul>
-          <li>Developed an end-to-end tumor-only sequencing pipeline for follicular lymphoma, applied across 1,000+ samples from multiple international cohorts.</li>
-          <li>Designed consensus variant calling strategies for SNVs and copy number alterations, addressing challenges of tumor-only data.</li>
-          <li>Performed cohort-scale analyses linking genomic alterations to treatment response and survival outcomes.</li>
-          <li>Built and maintained HPC-based workflows integrating multiple variant callers and downstream annotation pipelines.</li>
-        </ul>
+        <strong>Research Assistant</strong> · Kridel Lab, Princess Margaret Cancer Centre · Toronto, ON<br>
+        <em>May 2025 – Jan 2026</em><br>
+        Built pipelines for tumor-only sequencing and mutational burden analysis in follicular lymphoma, applied across large international cohorts.
       </li>
 
       <li>
-        <strong>Microbiome Machine Learning Research Assistant</strong> — Microbial Markets & Geomicrobiology Group, University of Calgary · Calgary, AB<br>
-        <em>Sept 2022 – Sept 2024</em>
-        <ul>
-          <li>Developed machine learning models integrating 16S rRNA sequencing data with ecological metadata to predict hydrocarbon presence across diverse environments.</li>
-          <li>Performed feature engineering and selection on high-dimensional microbial datasets, improving model performance and interpretability.</li>
-          <li>Evaluated model generalizability across independent datasets and identified key microbial indicators.</li>
-          <li>Led project coordination and contributed to a first-author publication in <em>Microbiology Spectrum</em> (2025).</li>
-        </ul>
+        <strong>Research Assistant</strong> · Geomicrobiology Group, University of Calgary · Calgary, AB<br>
+        <em>Sept 2022 – Sept 2024</em><br>
+        Developed ML models using 16S rRNA sequencing data to predict hydrocarbon presence across marine and industrial environments. Led to a first-author publication in <em>Microbiology Spectrum</em> (2025).
       </li>
 
       <li>
-        <strong>Undergraduate Research Assistant</strong> — Energy, Bioengineering & Geomicrobiology Group, University of Calgary · Calgary, AB<br>
-        <em>May 2019 – Apr 2022</em>
-        <ul>
-          <li>Conducted amplicon and metagenomic sequencing analyses, integrating microbial community data with geochemical measurements.</li>
-          <li>Built reproducible workflows for sequence processing, assembly, binning, and functional annotation.</li>
-          <li>Applied HMM-based methods to identify genes involved in hydrocarbon degradation pathways.</li>
-          <li>Performed full wet lab workflows including DNA extraction, library preparation, and sequencing.</li>
-        </ul>
+        <strong>Undergraduate Research Assistant</strong> · Energy, Bioengineering & Geomicrobiology Group, University of Calgary · Calgary, AB<br>
+        <em>May 2019 – Apr 2022</em><br>
+        Worked on amplicon and metagenomic sequencing of microbial communities in hydrocarbon systems, including tracking corrosion-associated microbes in hydraulic fracturing environments, alongside wet lab work.
       </li>
     </ul>
 
-    <h2>Genomics Projects</h2>
-    <ul class="exp-list">
-      <li>
-        <strong>RNA-seq Analysis</strong><br>
-        Developed a reproducible RNA-seq workflow using <strong>HISAT2</strong>, <strong>HTSeq</strong>, and <strong>edgeR</strong> to analyze transcriptional responses in model systems.
-      </li>
-      <li>
-        <strong>Variant Interpretation</strong><br>
-        Applied <strong>ACMG</strong> guidelines and tools such as <strong>Ensembl VEP</strong> and <strong>gnomAD</strong> for clinical variant interpretation.
-      </li>
-      <li>
-        <strong>Science Communication</strong><br>
-        Produced accessible explanations of complex genomics concepts, including retrotransposon regulation and chromosomal interactions.
-      </li>
-    </ul>
   </div>
 </div>
 
